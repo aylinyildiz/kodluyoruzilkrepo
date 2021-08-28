@@ -1,8 +1,8 @@
 # kodluyoruzilkrepo
 
-Kodluyoruz Frontend Eğitimi için açtığım repo
+Kodluyoruz Frontend Eğitimi için açtığım repo. Index.html ve readme içerir.
 
-!(https://github.com/aylinyildiz/kodluyoruzilkrepo/1.PNG)
+![repo](https://github.com/aylinyildiz/kodluyoruzilkrepo/blob/main/1.PNG)
 
 ## Installation
 
