@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <title>Git Cheat Sheet</title>
+  </head>
+  <body>
+
+    <div class="container">
+      <div class="row mt-5">
+        <div class="col-sm-6">
+            <h1 class="fw-bold">Git Cheat Sheet</h1>
+        </div>
+        <div class="col-sm-2">
+            <p><b>Remember!</b></p>
+            <p class="text-info">git <COMMAND> --help</p>
+        </div>
+        <div class="col-sm-2">
+            <p><b>Global configuration is stoed in ~/.gitconfig.</b></p>
+            <p class="text-info">git config --help</p>
+        </div>
+        <div class="col-sm-2">
+            <p><b>master</b> is the default development branch.</p>
+            <p><b>origin</b> is the default upstream repository.</p>
+        </div>
+      </div>
+
+      <div class="row mt-5">
+          <div class="col-sm">
+              <h2>Create</h2>
+              From existing data
+             <p class="text-info">cd ~/my_project_directory <br>
+            git init<br>
+              git add .</p>
+              From existing repository
+              <p class="text-info">git clone ~/existing_repo ~/new/repo <br>
+             git clone git:://host.org/project.git<br>
+               git clone ssh://user@host.org/project.git</p>
+              
+             
+          </div>
+          <div class="col-sm">
+              <h2>Revert</h2>
+              Return to the last commited state
+              <p class="text-info">git reset --hard</p>
+              Revert the last commit
+              <p class="text-info">git reset HEAD</p>
+
+          </div>
+          <div class="col-sm">
+              <h2>Branch</h2>
+              Switch to a branch
+              <p class="text-info">git checkout <BRANCH></p>
+              Merge BRANCH1 into BRANCH2
+              <p class="text-info">
+                  git checkout <BRANCH1> <br>
+                  GİT MERGE </BRANCH1>
+              </p>
+          </div>
+          <div class="col-sm">
+              <h2>Update</h2>
+              Fetch latest changes from origin
+              <p class="text-info">git fetch</div>
+      </div>
+
+      <div class="row">
+          <img src="/git-workflow.jpg" alt="">
+      </div>
+    </div>
+   
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
